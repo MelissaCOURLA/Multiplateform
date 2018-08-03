@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NotreMultiApp.ListeMusique">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label 
+                Text="List musical"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button
+                x:Name="MenuPrincipal"
+                Text="Menu principal"
+                VerticalOptions="StartAndExpand"
+                HorizontalOptions="Start"
+                Clicked="MenuPrincipal_Clicked"/>
+
+            <Button 
+                x:Name="Play"
+                Text="Play"
+                Clicked="Play_Clicked"/>
+            <Button 
+                x:Name="Pause"
+                Text="Pause"
+                Clicked="Pause_Clicked"/>
+            <Button 
+                x:Name="Next"
+                Text="Next"
+                Clicked="Next_Clicked"/>
+            <Button 
+                x:Name="Previous"
+                Text="Previous"
+                Clicked="Previous_Clicked"/>
+            <Button 
+                x:Name="Stop"
+                Text="Stop"
+                Clicked="Stop_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

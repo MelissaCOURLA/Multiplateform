@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:NotreMultiApp.Image"
+             x:Class="NotreMultiApp.Image">
+    <StackLayout>
+            <Label 
+                Text="image"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+            <Button
+                x:Name="MenuPrincipal"
+                Text="Menu principal"
+                VerticalOptions="StartAndExpand"
+                HorizontalOptions="Start"
+                Clicked="MenuPrincipal_Clicked"/>
+            <Image
+                Source="https://xamarin.com/content/images/pages/forms/example-app.png"
+                />
+        </StackLayout>
+</ContentPage>
